@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="match_parent"
+        android:text="Player Name"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvShirtNo"
+        android:layout_width="match_parent"
+        android:text="Shirt No : 10"
+        android:textColor="#00BCD4"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#B4B3B3"/>
+</LinearLayout>
